@@ -29,10 +29,6 @@ a:hover { color: #D3D3D3;                        }
 
 }
 
-.textbar{
-		padding:1000;
-}
-
-logo {
+#logo {
 	width: 400px;
 }
