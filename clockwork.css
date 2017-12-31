@@ -1,0 +1,164 @@
+/*
+ * Clockwork v1.0 Yellow
+ * by svaber
+ */
+
+/* Basic */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+  font-size: 17px;
+  line-height: 25px;
+  font-family: raleway, helvetica, arial, serif;
+  margin: 0;
+}
+/* End of basic */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1                     { font-size: 40px;     }
+h2                     { font-size: 32px;     }
+h3, fieldset legend    { font-size: 24px;     }
+h4                     { font-size: 17px;     }
+h5                     { font-size: 14px;     }
+h6                     { font-size: 12px;     }
+/* End of headings */
+
+/* Links */
+a       { color: #f0963d; text-decoration: none; }
+a:hover { color: #e08328;                        }
+
+.button {
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-family: raleway;
+  background-color: white;
+  color: #f0963d;
+  border: 1px solid #f0963d;
+}
+
+.colored.button {
+  background-color: #f0963d;
+  color: white;
+  border: none;
+}
+
+.button:hover         { border-color: #e08328;                     }
+.colored.button:hover { background-color: #e08328;                 }
+.pill                 { padding: 10px 20px; border-radius: 9999px; }
+/* End of links */
+
+/* Inputs */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  padding: 7.5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 350px;
+  margin: 5px 0;
+  font-family: raleway;
+  font-size: 14px;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #f0963d;
+}
+/* End of inputs */
+
+/* Tables */
+/* One day... */
+/* End of tables */
+
+/* Code tags */
+code pre, kbd {
+  background-color: #eee;
+  font-size: 15px;
+}
+
+code pre { padding: 5px 10px; border-left: 3px solid #f0963d; }
+kbd  { padding: 0 3px;     }
+
+blockquote {
+  border-left: 5px solid #ccc;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5px 30px;
+}
+
+cite        { margin: 1em 0; }
+cite:before { content: "- "; }
+/* End of code tags */
+
+/* Lists */
+ul { list-style-type: circle; }
+/* End of lists */
+
+/* Utilities */
+.floatLeft  { float: left;                              }
+.floatRight { float: right;                             }
+hr          { border: none; border-top: 1px solid #eee; }
+fieldset    { border: 1px solid #ddd;                   }
+.container  { max-width: 750px; margin: 0 auto;         }
+/* End of utilities */
+
+/* Columns */
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.row  { clear: both; overflow: hidden; }
+
+@media (min-width: 550px) {
+  /* Column margins */
+  .columns             { margin-left: 4%; }
+  .columns:first-child { margin-left: 0;  }
+  /* End of column margins */
+
+  /* Column widths */
+  .one.columns    { width: 4.66666666667%; }
+  .two.columns    { width: 13.3333333333%; }
+  .three.columns  { width: 22%;            }
+  .four.columns   { width: 30.6666666667%; }
+  .five.columns   { width: 39.3333333333%; }
+  .six.columns    { width: 48%;            }
+  .seven.columns  { width: 56.6666666667%; }
+  .eight.columns  { width: 65.3333333333%; }
+  .nine.columns   { width: 74%;            }
+  .ten.columns    { width: 82.6666666667%; }
+  .eleven.columns { width: 91.3333333333%; }
+  /* End of column widths */
+
+  /* Offsets */
+  /* Offsets are *very* buggy as of now, uncomment at your own risk */
+  /*.offOne.columns    { margin-left: 8.66666666667%; }
+  .offTwo.columns    { margin-left: 17.3333333333%; }
+  .offThree.columns  { margin-left: 26%;            }
+  .offFour.columns   { margin-left: 34.6666666667%; }
+  .offFive.columns   { margin-left: 43.3333333333%; }
+  .offSix.columns    { margin-left: 52%;            }
+  .offSeven.columns  { margin-left: 60.6666666667%; }
+  .offEight.columns  { margin-left: 69.3333333333%; }
+  .offNine.columns   { margin-left: 78.0%;          }
+  .offTen.columns    { margin-left: 86.6666666667%; }
+  .offEleven.columns { margin-left: 95.3333333333%; }*/
+  /* End of offsets */
+}
+/* End of columns */
